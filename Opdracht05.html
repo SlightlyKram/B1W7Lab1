@@ -17,10 +17,17 @@
         //Eigen acties
         spaceShip.run(function () {
             // code  start
-
-
-
+        for (i = 0; i < 3; i++) {
+            for (u = 0; u < 2; u++) {
+                        spaceShip.wait();
+                    }
+                    for (u = 0; u < 3; u++) {
+                        spaceShip.moveBackward();
+                    }
+        }
+        
             // code  einde
+        
         });
     </script>
 </body>
