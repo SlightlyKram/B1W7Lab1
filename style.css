@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("../images/bg.jpg");
+    background-image: url("bg.jpg");
 }
 h1{
     color: wheat;
@@ -65,7 +65,7 @@ table input{
     grid-row-gap: 5px;
     position: fixed;
     border-bottom: 2px solid darkmagenta;
-    background-image: url(../images/banner.jpg);
+    background-image: url(banner.jpg);
     background-size: cover;
     background-position: center;
     z-index: 10000;
@@ -431,7 +431,7 @@ table input{
 #ship {
     width: 92%;
     height: 92%;
-    background-image: url("../images/spaceship.png");
+    background-image: url("spaceship.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
